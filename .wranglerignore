@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "libretv",
+  "main": "worker.js",
   "compatibility_date": "2026-06-25",
   "observability": {
     "enabled": true
@@ -16,7 +17,7 @@
     "nodejs_compat"
   ],
   "vars": {
-    "PASSWORD": "你想設定的密碼",
-    "ADMINPASSWORD": "你想設定的密碼"
+    "PASSWORD": "ernest1080123",
+    "ADMINPASSWORD": "ernest1080123"
   }
 }
