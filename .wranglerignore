@@ -1,2 +1,22 @@
-node_modules
-.git
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "libretv",
+  "compatibility_date": "2026-06-25",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".",
+    "exclude": [
+      "node_modules/**/*",
+      ".git/**/*"
+    ]
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "PASSWORD": "你想設定的密碼",
+    "ADMINPASSWORD": "你想設定的密碼"
+  }
+}
